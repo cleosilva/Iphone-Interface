@@ -1,6 +1,6 @@
 # iPhone Functionalities UML Diagram
 
-```mermaid
+```
 classDiagram
     class interfaces.IMusicPlayer {
         +play()
@@ -50,3 +50,6 @@ classDiagram
     interfaces.IPhone <|.. interfaces.IPhone
     interfaces.IWebBrowser <|.. models.WebBrowser
     interfaces.IMusicPlayer <|..
+```
+
+![image](https://github.com/user-attachments/assets/7295780f-cd35-418e-b2f2-57fbe11f5fc6)
